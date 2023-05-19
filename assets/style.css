@@ -35,7 +35,10 @@ h2 {
 
 h3, h4 {
   font-size: 1rem;
-  font-style: italic; }
+  font-style: italic;
+  /*set the font bold*/
+  font-weight: bold;
+ }
 
 h3 {
     margin:  0.7em 0  0.7em 0;;
@@ -53,6 +56,18 @@ a {
 
 img {
     border-radius: 7px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  border: 2px solid black;
+}
+
+th,
+td {
+  padding: 8px;
+  border: 1px solid black;
 }
 
 #content {
@@ -115,7 +130,7 @@ padding: 20px;
 }
 
 section {
-    margin-top: 2em;
+    margin: 5em 0 5em 0;
 }
 
 /*
